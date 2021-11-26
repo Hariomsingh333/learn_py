@@ -14,10 +14,14 @@ name = "John Smith"
 age = 20
 new_patient = True
 """
-# Receiving input
 
-# your_name = input("enter your name: ")
-# print("hey! " + your_name)
+
+# Receiving input
+"""
+your_name = input("enter your name: ")
+print("hey! " + your_name)
+"""
+## Type Conversion
 """
 your_dob = input("enter your dob: ")
 age = 2021 - int(your_dob)
