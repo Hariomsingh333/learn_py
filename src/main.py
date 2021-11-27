@@ -54,7 +54,8 @@ if age >= 18:
     print(f"you are aviable to vote, your age is {age}")
 else:
     print(f"you are not aviable to vote :(, your age is {age}")
-"""
+
+
 temperature = 25
 if temperature >= 30:
     print(f"it's a hot day and the temp is {temperature}")
@@ -64,3 +65,61 @@ elif temperature < 20:
     print(f"it's a cold day")
 else:
     print("no data found 404")
+"""
+# challenge
+# cover pound to kg
+"""
+weight = int(input("enter you weight: "))
+which = input("for pound write P or kg then write K: ")
+if which == "P":
+    sum = weight * 0.45359237
+    print(f"{sum} kg")
+if which == "K":
+    print(f"{weight} Kg")
+"""
+
+# Loops
+
+# while loop
+"""
+num = 1
+# when the while condition is true then the while loop run
+while num <= 5:
+    print(num)
+    num = num + 1
+
+
+i = 1
+while i <= 10:
+    print(i * "*")
+    i = i + 1
+"""
+
+# loop list using while loop
+"""
+num = [1, 2, 3, 4, 5]
+i = 0
+while i < len(num):
+    print(num[i])
+    i = i + 1
+"""
+# for loop
+"""
+num = [1, 2, 3, 4, 5]
+for i in num:
+    print(i)
+"""
+# List
+"""
+name = ["sonu", "monu", "hari", "shivam", "john", "serten"]
+print(name)
+print(name[2])
+
+# list method
+num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+num.append(11)  # to add in -1 index
+num.insert(2, 45)  # add in middle or type the index and add number
+num.remove(3)  # remove the list using the index
+num.clear()  # it's clear all the list
+
+"""

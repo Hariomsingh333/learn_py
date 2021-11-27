@@ -140,3 +140,66 @@ else:
     print("no data found 404")
 
 ```
+
+## Loops
+
+Python has two primitive loop commands:
+
+- while loops
+- for loops
+
+### while loop
+
+we use while loop to repeat a block of code multiple times
+<br>
+if the while loop condition is true then the while loop run
+
+ex- print 1 to 5
+
+```py
+while num <= 5:
+    print(num)
+    num = num + 1
+```
+
+```py
+# loop list using while loop
+num = [1, 2, 3, 4, 5]
+i = 0
+while i < len(num):
+    print(num[i])
+    i = i + 1
+```
+
+### for loop
+
+```py
+# for loop
+num = [1, 2, 3, 4, 5]
+for i in num:
+    print(i)
+```
+
+## Lists
+
+basically list meaning array
+
+```py
+name = ["sonu", "monu", "hari", "shivam", "john", "serten"]
+print(name)
+print(name[2])
+```
+
+### List method
+
+list have also bunch of method like we have in string
+
+```py
+num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+num.append(11) # to add in -1 index
+num.insert(2, 45) # add in middle or type the index and add number
+num.remove(3) # remove the list using the index
+num.clear() # it's clear all the list
+
+print(1 in num) # True , it mean is 1 in there we use the in keyword
+```
