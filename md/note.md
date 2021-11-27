@@ -112,7 +112,7 @@ in python have many operator
 - Bitwise operators
 
 all operator cover in this like or search in google
-[link]("https://www.w3schools.com/python/python_operators.asp")
+[link](https://www.w3schools.com/python/python_operators.asp)
 
 ## Conditional Statement (if/else)
 
