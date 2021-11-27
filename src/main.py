@@ -123,3 +123,17 @@ num.remove(3)  # remove the list using the index
 num.clear()  # it's clear all the list
 
 """
+
+# function
+"""
+def say_hi(str):
+    print(f"hey {str}")
+
+
+say_hi("hari")
+"""
+# Tuples
+"""
+the_tuples = ("bus", "car", "bike")
+print(the_tuples)
+"""

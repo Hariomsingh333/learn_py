@@ -203,3 +203,32 @@ num.clear() # it's clear all the list
 
 print(1 in num) # True , it mean is 1 in there we use the in keyword
 ```
+
+## function
+
+we can create function in python using the def keyword
+
+```py
+# function
+def say_hi(str):
+    print(f"hey {str}")
+
+say_hi("hari")
+
+```
+
+## tuples
+
+Tuples are used to store multiple items in a single variable.
+
+Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary, all with different qualities and usage.
+
+A tuple is a collection which is ordered and unchangeable.
+
+Tuples are written with round brackets
+
+```py
+# Tuples
+the_tuples = ("bus", "car", "bike")
+print(the_tuples)
+```
