@@ -51,3 +51,47 @@ item2.price = 50
 item2.quantity = 20
 print(item2.calculate_total_price(item2.price, item2.quantity))
 ```
+
+## Constructor
+
+we can make the Constructor using the very unique name double underscore init double underscore
+
+```py
+# name
+__init__
+```
+
+basically constructor is a method with a unique name that you need to call it the way it in intentionally in order to use its special futures.
+
+<br>
+
+Constructors are generally used for instantiating an object. The task of constructors is to initialize(assign values) to the data members of the class when an object of the class is created. In Python double_underscore init double_underscore() the method is called the constructor and is always called when an object is created.
+
+#### syntax
+
+```py
+class Item:
+    def __init__(self):
+        #body of the constructor
+```
+
+```py
+class Item:
+    def __init__(self, name, price, quantity):
+        # print(f"An instace create: {name}")
+        self.name = name
+        self.price = price
+        self.quantity = quantity
+
+    def calculate_total_price(self, x, y):
+        return x * y
+
+
+# create the name,price,qtu using the constructor
+item1 = Item("Iphone", 100, 5)
+# item1.name = "IPhone"
+# item1.price = 90
+# item1.quantity = 10
+print(item1.calculate_total_price(item1.price, item1.quantity))
+
+```
