@@ -232,3 +232,26 @@ Tuples are written with round brackets
 the_tuples = ("bus", "car", "bike")
 print(the_tuples)
 ```
+
+## dictionary
+
+just like we have object in javascript in here we got dictionary.
+
+- in dictionary we need to specify everything in double quotes
+
+```py
+my_obj = {"name": "hari om", "roll no": 450, "DOB": 2003}
+print(my_obj["name"])
+
+```
+
+## set
+
+we have another data structure called set, we also save our data using set in python
+
+```py
+# set
+num = set
+num = ("hari om", 450, 2003)
+print(num[1])
+```

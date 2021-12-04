@@ -137,3 +137,12 @@ say_hi("hari")
 the_tuples = ("bus", "car", "bike")
 print(the_tuples)
 """
+
+# dictionary
+# my_obj = {"name": "hari om", "roll no": 450, "DOB": 2003}
+# print(my_obj["name"])
+
+# set
+# num = set
+# num = ("hari om", 450, 2003)
+# print(num[1])
